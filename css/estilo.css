@@ -24,7 +24,7 @@ button {
 
 .menuClass {
   width: 200px;
-  height: 600px;
+  height: 100vh;
   background: #080808;
   color: aliceblue;
   padding: 20px;
@@ -36,4 +36,26 @@ footer {
   color: white;
   text-align: left;
   font-style: italic;
+}
+
+.menuClass ul {
+  list-style: none;
+  padding: 0;
+}
+.menuClass ul li {
+  margin: 10px;
+}
+.menuClassul ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  flex-grow: 1; /*capacidade de um elemento crescer*/
+  padding: 20px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
