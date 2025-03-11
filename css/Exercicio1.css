@@ -2,3 +2,28 @@ form {
   display: flex;
   flex-direction: column;
 }
+label {
+  display: flex;
+  margin-top: 10px;
+}
+input {
+  margin-top: 5px;
+}
+button {
+  margin-top: 10px;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+.container {
+  flex-grow: 1; /*capacidade de um elemento crescer*/
+  padding: 20px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

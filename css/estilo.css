@@ -1,17 +1,13 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: rgb(42, 41, 65);
   background-color: #056ef8a8; /* usa modelo FlexBox, conceito de caixa para posicionamento */
   display: flex;
   align-items: center; /* centraliza verticalmente */
   justify-content: center; /* centraliza horizontalmente */
   height: 100vh; /* Define a altura */
-}
-.card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 25px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
-  text-align: center;
 }
 button {
   background-color: #012d5c;
@@ -21,7 +17,9 @@ button {
   border-radius: 5px;
   cursor: pointer; /* cursor do mouse */
 }
-
+button:hover {
+  background-color: #160a7e;
+}
 .menuClass {
   width: 200px;
   height: 100vh;
@@ -32,6 +30,7 @@ button {
   left: 0;
   top: 0;
 }
+
 footer {
   color: white;
   text-align: left;
@@ -45,17 +44,11 @@ footer {
 .menuClass ul li {
   margin: 10px;
 }
-.menuClassul ul li a {
+.menuClass ul li a {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
-
-.container {
-  flex-grow: 1; /*capacidade de um elemento crescer*/
-  padding: 20px;
-  margin-left: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.menuClass ul :hover {
+  background-color: #161415;
 }
