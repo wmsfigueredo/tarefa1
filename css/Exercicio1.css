@@ -12,13 +12,10 @@ input {
 button {
   margin-top: 10px;
 }
-.card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
-  text-align: center;
+.container {
+  display: flexbox;
 }
+
 .container {
   flex-grow: 1; /*capacidade de um elemento crescer*/
   padding: 20px;
@@ -26,4 +23,11 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+  text-align: center;
 }
